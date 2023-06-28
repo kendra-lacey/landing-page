@@ -165,7 +165,7 @@ flex-direction: column;
 }
 
 #quote p, #quote h2 {
-  max-width: 700px; /* adjust this value to your liking */
+  max-width: 700px; 
 }
 
 #quote p {
@@ -179,4 +179,31 @@ flex-direction: column;
 #quote h2 {
   text-align: right;
   font-size: 20px;
+}
+
+.call-to-action #action-box {
+  background-color: #3882F6;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  padding: 20px;
+  margin: 100px 200px;
+  color: #E5E7EB;
+}
+
+#action-box h4,p{
+text-align: left;
+}
+
+.call-to-action button {
+  font-size: 16px;
+  align-self: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: 2px solid #E5E7EB;
+  color: #E5E7EB;
+  background: #3882F6;
+  padding: 10px 30px; 
 }
