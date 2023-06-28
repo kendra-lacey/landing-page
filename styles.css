@@ -99,13 +99,52 @@ a:hover {
 
 .information{
 display: flex;
-justify-content: space-around;
-padding: 50px 100px;
+flex-direction: column;
 }
 
-.information img {
+.information h3 {
+  align-self: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px 100px;
+}
+
+.multi-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.multi-box img {
   max-width: 200px;
   max-height: 250px;
   border: 3px solid #3882F6;
   border-radius: 15px;
+}
+
+.multi-box h5 {
+  font-size: 17px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.information:hover {
+  transition: 0.3s;
+  box-shadow: 0px 0px 15px rgb(255, 255, 255);
 }
