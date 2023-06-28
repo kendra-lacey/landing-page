@@ -1,5 +1,6 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
 }
 
 #logo {
@@ -7,13 +8,14 @@ body {
   padding: 0;
 }
 
-header, footer {
-  background-color: #1F2937;
+header,
+footer {
+  background-color: #1f2937;
   background-size: auto;
 }
 
 .quote {
-  background-color: #E5E7EB ;
+  background-color: #e5e7eb;
 }
 
 .nav-container {
@@ -27,28 +29,30 @@ header, footer {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 40%; 
-  margin: 0 10px; 
+  width: 40%;
+  margin: 0 10px;
 }
 
-
-a:link, a:visited, a:active {
+a:link,
+a:visited,
+a:active {
   text-decoration: none;
   outline: none;
   color: inherit;
 }
 
 a:hover {
-  color:#3882F6;
+  color: #3882f6;
 }
 
 #maintext {
   font-size: 48px;
   font-weight: bolder;
-  color: #F9FAF8;
+  color: #f9faf8;
 }
 
-#secondary , .nav-links {
+#secondary,
+.nav-links {
   font-size: 18px;
   color: #eddde9;
 }
@@ -58,7 +62,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding:100px;
+  padding: 100px;
   max-width: 1000px;
 }
 
@@ -75,40 +79,40 @@ a:hover {
   padding-left: 20px;
 }
 
-
 .hero-text > button {
   font-size: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 6px 14px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
   border-radius: 6px;
   border: none;
   color: #fff;
-  background: linear-gradient(180deg, #4B91F7 0%, #3882F6 100%);
+  background: linear-gradient(180deg, #4b91f7 0%, #3882f6 100%);
   background-origin: border-box;
-  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25),
+    inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
 }
 
 .hero-text > button:focus {
-  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2),
+    0px 0.5px 1.5px rgba(54, 122, 246, 0.25),
+    0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
   outline: 0;
 }
 
-
-.information{
-display: flex;
-flex-direction: column;
+.information {
+  display: flex;
+  flex-direction: column;
 }
 
 .information h3 {
   align-self: center;
   font-size: 36px;
   font-weight: bolder;
-  color: #1F2937;
+  color: #1f2937;
 }
-
 
 .boxes {
   display: flex;
@@ -128,7 +132,7 @@ flex-direction: column;
 .multi-box img {
   max-width: 200px;
   max-height: 250px;
-  border: 3px solid #3882F6;
+  border: 3px solid #3882f6;
   border-radius: 15px;
 }
 
@@ -150,7 +154,7 @@ flex-direction: column;
 }
 
 .quote-section {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   height: 300px;
   display: flex;
   align-items: center;
@@ -164,12 +168,13 @@ flex-direction: column;
   text-align: center;
 }
 
-#quote p, #quote h2 {
-  max-width: 700px; 
+#quote p,
+#quote h2 {
+  max-width: 700px;
 }
 
 #quote p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-style: italic;
   text-align: center;
@@ -182,7 +187,7 @@ flex-direction: column;
 }
 
 .call-to-action #action-box {
-  background-color: #3882F6;
+  background-color: #3882f6;
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
@@ -190,20 +195,29 @@ flex-direction: column;
   text-align: center;
   padding: 20px;
   margin: 100px 200px;
-  color: #E5E7EB;
+  color: #e5e7eb;
 }
 
-#action-box h4,p{
-text-align: left;
+#action-box h4,
+p {
+  text-align: left;
 }
 
 .call-to-action button {
   font-size: 16px;
   align-self: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
   border-radius: 6px;
-  border: 2px solid #E5E7EB;
-  color: #E5E7EB;
-  background: #3882F6;
-  padding: 10px 30px; 
+  border: 2px solid #e5e7eb;
+  color: #e5e7eb;
+  background: #3882f6;
+  padding: 10px 30px;
+}
+
+footer {
+  color: #e5e7eb;
+  text-align: center;
+  padding: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
