@@ -212,6 +212,7 @@ p {
   color: #e5e7eb;
   background: #3882f6;
   padding: 10px 30px;
+  margin-top: 18px;
 }
 
 footer {
@@ -220,4 +221,8 @@ footer {
   padding: 40px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+}
+
+#action-box p {
+  color: #eddde9;
 }
