@@ -79,7 +79,7 @@ a:hover {
   padding-left: 20px;
 }
 
-.hero-text > button {
+.hero-button > button {
   font-size: 16px;
   display: flex;
   flex-direction: column;
@@ -229,16 +229,17 @@ footer {
 
 @media screen and (max-width: 768px) {
   /* Modify styles for smaller screens here */
-
   .hero-container {
     flex-direction: column;
     align-items: center;
     padding: 20px;
   }
+
   h1 {
     align-self: center;
   }
-  button {
+
+ a.hero-button {
     align-self: center;
     margin: 20px;
   }
