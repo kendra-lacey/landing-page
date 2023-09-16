@@ -226,3 +226,22 @@ footer {
 #action-box p {
   color: #eddde9;
 }
+
+
+@media screen and (max-width: 768px) {
+  /* Modify styles for smaller screens here */
+  .information {
+    padding: 20px;
+  }
+
+  .boxes {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .multi-box {
+    text-align: center;
+    margin: 10px;
+  }
+}
